@@ -1,0 +1,120 @@
+/**img cards**/
+.box {
+    position: relative;
+    display: inline-block;
+}
+.box .labels p {
+    position: absolute;
+    z-index: 999;
+    top: 89%;
+    color: #fff;
+    background-color: aqua;
+}
+.video-fluid {
+    width: 100%;
+    height: auto;
+}
+
+/*progressbar shit*/
+.progressb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.progbox {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+
+.progbox .percent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.progbox .percent svg {
+     position: relative;
+    width: 150px;
+    height: 150px;
+}
+.progbox .percent svg circle {
+    
+    width: 150px;
+    height: 100px;
+    fill:none;
+    stroke-width:10;
+    stroke:#000;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset:440;
+    stroke-linecap:round;
+    
+}
+.progbox .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+    
+}
+.progbox .percent svg circle:nth-child(2) {
+    stroke-dashoffset:calc(440 - (440*88) / 100);
+    stroke: #03a9f4;
+    
+}
+
+.progbox .percent .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+}
+
+.progbox .percent .number h2 {
+    font-size: 32px;
+    
+}
+.progbox .percent .number h2 span {
+    font-size: 24px;
+    
+}
+
+.progbox .text{
+    padding: 10px 0 0;
+    color: #999;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+/**pacman*/
+#pacman {
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid red;
+    border-bottom: 100px solid red;
+    border-right: 100px solid transparent;
+    border-left: 100px solid red;
+    border-top-left-radius: 10%;
+     border-bottom-left-radius: -20%;
+    
+    
+}
+.blui {
+    background: yellow;
+    color: yellow;
+
+}
+
+
