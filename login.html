@@ -30,14 +30,14 @@
   </div>-->
 
     
-    <main>
-        <section class="home container pt-3">
-            <div class="pt-5"></div>
+    <main style="height: 100vh" class="h-100">
+        <section class="home container pt-0 h-100">
             
-            <div class="row mt-2 mobile">
+            
+            <div class="row mt-0 mobile">
                
                 <div class="col-lg-6 my-auto">
-                     <a class="d-none d-md-block mb-5 pb-5 " href="#">Go back home</a>
+                     <a class="d-md-block mt-0 mb6 pb-6 " href="./index.html">Go back home</a>
                     <div class="row ">
                         
                         <div class="home-content text-center pt-4 mt-3 offset-lg-1 col-lg-10">
@@ -59,7 +59,7 @@
                     <div class="text-center"> <h2 class=" mb-5 pb-3">Welcome!</h2></div>
                     <div class="card">
                          <!-- Default form login -->
-<form class="text-center  border border-light p-5" action="#!">
+<form class="text-center  border border-light p-5" action="#!" id="login">
 
     <!-- Email -->
     <input type="email" id="defaultLoginFormEmail" class="form-control mb-4 md-form " placeholder="E-mail">
@@ -82,7 +82,7 @@
     </div>
 
     <!-- Sign in button -->
-    <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+    <button class="btn btn-info btn-block my-4" type="submit" >Sign in</button>
 
     <!-- Register -->
     <p>Not a member?
@@ -180,7 +180,7 @@
     </footer>
     
     <!--mobile Footer -->
-       <div class="footer-menu fixed-bottom  pt-2 d-flex d-block d-sm-none d-lg-none">
+       <div class="footer-menu fixed-bottom  pt-2  d-none d-sm-none d-lg-none">
             <div class="row text-center mx-auto">
             <div class="col-xs-3 pr-3">
                 <a>
@@ -218,7 +218,14 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
-  <script type="text/javascript"></script>
+  <script type="text/javascript">
+    $("#login").submit(event => {
+        event.preventDefault();
+        window.location.href = "./examples/dashboard.html";
+        console.log('new location');
+        console.log(window.location.href);
+    });
+  </script>
 
 </body>
 </html>
