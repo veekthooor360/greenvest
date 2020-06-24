@@ -28,7 +28,10 @@ nav.navbar.navbar-expand-md {
     z-index: 999;
     top: 89%;
     color: #fff;
-    background-color: aqua;
+    background-color:#0B661F;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
 }
 .video-fluid {
     width: 100%;
@@ -121,11 +124,10 @@ nav.navbar.navbar-expand-md {
     left: 5%;
 }
 
-}
-.progress.yellow .progress-bar{
-    border-color: #fdba04;
-}
-.progress.yellow .progress-left .progress-bar{
+
+
+
+.progress.white .progress-left .progress-bar{
     animation: loading-3 1s linear forwards 1.8s;
 }
 
@@ -185,24 +187,14 @@ nav.navbar.navbar-expand-md {
     .progress{ margin-bottom: 20px; }
 }
 
-/**pacman*/
-#pacman {
-    width: 0px;
-    height: 0px;
-    border-top: 100px solid red;
-    border-bottom: 100px solid red;
-    border-right: 100px solid transparent;
-    border-left: 100px solid red;
-    border-top-left-radius: 10%;
-     border-bottom-left-radius: -20%;
-    
-    
-}
 
 
 
 /*timeline*/
 
+.pagination.pg-blue .page-item.active .page-link {
+    background-color:#0B661F;
+}
 
  
 .footer-menu {
@@ -213,10 +205,35 @@ nav.navbar.navbar-expand-md {
 
 .footer-menu p {}
 
+.stylish-color-dark {
+    background-color: #FAFAFA !important;
+    color: black;
+}
+
+footer.page-footer a {
+    color: #000 !important;
+   
+}
+
+footer.page-footer {
+    bottom: 0;
+    color: #000;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    color: gray;
+    background-color: #fafafa;
+}
+
 .projects .col-xs-12 .center-me {
         text-align: center;
         padding-bottom: 20px;
 
+}
+.uzu {
+    background-color: green !important;
+    color: white !important;
 }
 
 @media(max-width:900px) {
