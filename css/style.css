@@ -192,13 +192,14 @@ nav.navbar.navbar-expand-md {
 
 /*timeline*/
 
+
 .pagination.pg-blue .page-item.active .page-link {
     background-color:#0B661F;
 }
 
  
 .footer-menu {
-    background-color: #fff;
+    background-color:#FAFAFA;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -235,6 +236,17 @@ footer.page-footer .footer-copyright {
     background-color: green !important;
     color: white !important;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:900px) {
     .who-we-are .container {
@@ -341,9 +353,9 @@ footer.page-footer .footer-copyright {
     /*projects*/
     
     #nav2 {
-        background: white;
+   
     }
-    #nav2 h3 {
+    #nav2 h2 {
         justify-content: center !important;
         text-align: center !important;
     }
@@ -357,10 +369,15 @@ footer.page-footer .footer-copyright {
     }
     
     .mobile .home-content img {
-       width: 12% !important;
+      max-width: 5% !important;
+        height: auto;
         margin-top: 0.4rem !important;
         padding-top: 0.2rem !important;
         padding-bottom: 0.3rem !important;
+    }
+     
+   .home-container .img-fluid {
+      max-width: 10% !important;
     }
     .mobile .home-content h1 {
         font-size: 30px;
@@ -426,6 +443,16 @@ footer.page-footer .footer-copyright {
     }
     
     
+    ul.pagination {
+    padding-top: 1rem !important;
+}
+    
+    
+    
+    
+    footer.page-footer a,footer.page-footer p{
+    color: #000 !important;
+        font-size: 22px !important;
     
     
     }
