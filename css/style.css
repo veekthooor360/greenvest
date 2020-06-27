@@ -39,14 +39,7 @@ nav.navbar.navbar-expand-md {
 }
 
 /*progressbar shit*/
-.progressb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-}
+
 
 
 
@@ -239,8 +232,30 @@ footer.page-footer .footer-copyright {
 
 
 
+/*faq page*/
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
 
-
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
 
 
 
@@ -274,11 +289,7 @@ footer.page-footer .footer-copyright {
     
     
     /*home*/
-    
-  nav.navbar-brand {
-        
-        
-    }
+ 
     .slide-it{
         position: absolute;
         top: 10%;
@@ -457,4 +468,4 @@ footer.page-footer .footer-copyright {
     
     }
 
-
+}
