@@ -551,3 +551,48 @@ footer.page-footer .footer-copyright {
         background-position: center;
         background-attachment: fixed;
     }
+
+.abouts {
+    background-image: url(../img/undraw_mobile_apps_spmp.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+   
+    
+    .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
+}
