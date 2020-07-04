@@ -1,8 +1,10 @@
-
+html,body {
+    height: 100%;
+}
 body {
     padding-bottom: 60px;
    border: 10px solid white !important;
-    background-color: #FAFAFA;
+    background-color: #fff;
     margin-bottom: 20px;
     text-overflow: clip;
     overflow-x: hidden;
@@ -290,20 +292,11 @@ footer.page-footer .footer-copyright {
     
     /*home*/
  
-    .slide-it{
-        position: absolute;
-        top: 10%;
-            left:0px;
-        margin-top: 0px !important;
-        padding-top: 0px !important;
-    }
-    
     .mobo-home {
         padding-top: 20px;
         padding-left: 20px;
         padding-right: 20px;
-        position: absolute;
-        top: 40%;
+       
     }
     
     .mobo-home h1 {
@@ -329,10 +322,7 @@ footer.page-footer .footer-copyright {
     }
     
    #themain {
-       padding-top: 10px !important;
-       margin-top: 20px !important;
-        position: absolute;
-        top: 95%;
+      
     }
     
     
@@ -412,8 +402,8 @@ footer.page-footer .footer-copyright {
         padding: 1rem !important;
     }
     
-    
-    /html/body/main/section[2]/div/div/div[1]/div[2]
+   
+   
     
     /*ctrlhub-projectsample*/
    
@@ -469,3 +459,95 @@ footer.page-footer .footer-copyright {
     }
 
 }
+
+
+
+.circle {
+  padding: 13px 20px;
+  border-radius: 50%;
+  background-color:#0B661F;
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+}
+.how-it-works h2,.how-it-works h5 {
+   font-weight: 500;
+}
+
+.how-it-works.row .col-2 {
+  align-self: stretch;
+}
+.how-it-works.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #0B661F;
+  z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.top::after {
+  height: 100%;
+  left: 50%;
+  top: 0;
+}
+
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #0B661F;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #0B661F;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+.carousel {
+    border-radius: 50%;
+}
+
+
+ 
+    #who-we-are {
+        height: 100%;
+    }
+    
+    #who-we-are-cover {
+        background-image:url('../img/greenvest%20logo.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
