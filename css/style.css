@@ -580,13 +580,6 @@ footer.page-footer .footer-copyright {
 
 
 
-
-
-
-
-
-
-
 @media (max-width:767px) {
    
     
@@ -595,4 +588,53 @@ footer.page-footer .footer-copyright {
     left: 50%;
     position: relative;
   }
+    .carousel-inner.carousel-item.img-fluid {
+        height: 280px !important;
+    }
+    
+    
+    
+
+.footer-mob {
+    margin: 0 0 55px 0:
+}
+
+
+
+.footer-mob.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    background-color: #fff !important;
+    display: flex;
+    overflow-x: auto;
+}
+    
+   .nav__link {
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       flex-grow: 1;
+       min-width: 50px;
+       overflow: hidden;
+       white-space: nowrap;
+       font-size: 13px !important;
+       color: #444444;
+       text-decoration: none;
+       transition: background-color 0.1s ease-in-out;
+        background-color: #fff !important;
+    }
+    
+    .nav__link:hover {
+        background-color: #eeeeee !important;
+    }
+    
+    .nav__link.active {
+        color: #009578;
+    }
+    
+
 }
