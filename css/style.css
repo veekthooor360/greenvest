@@ -11,6 +11,9 @@ body {
     overflow-y: auto;
     
 }
+.btn-success {
+    background:#0B661F !important;
+}
 nav.navbar.navbar-expand-md {
     background-color: #FFFFFF;
 }
@@ -852,7 +855,7 @@ footer.page-footer .footer-copyright {
   height: 50px;
   width: 50px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #E9EFE7;
    
 }
 
@@ -870,8 +873,9 @@ footer.page-footer .footer-copyright {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #E9EFE7;
   display: block;
+    color: #F57C00;
 }
 .card.card-cascade.narrower .view.view-cascade {
     margin-top: -1.0rem;
