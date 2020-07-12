@@ -3,7 +3,7 @@ html,body {
 }
 body {
     padding-bottom: 60px;
-   border: 10px solid white !important;
+ 
     background-color: #fff;
     margin-bottom: 20px;
     text-overflow: clip;
@@ -11,6 +11,18 @@ body {
     overflow-y: auto;
     
 }
+
+ a.nav-link {
+    color:  #212529 !important;
+}
+a.nav-link.active,a.nav-link:hover {
+    color: #0B661F !important;
+}
+
+ .navbar-brand {
+   
+        color: #212529 !important;
+  }
 .btn-success {
     background:#0B661F !important;
 }
@@ -105,7 +117,7 @@ nav.navbar.navbar-expand-md {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 10px solid green;
+    border: 10px solid orange;
     position: absolute;
     top: 0;
     left: 0;
@@ -651,6 +663,7 @@ footer.page-footer .footer-copyright {
     transform: translateX(-50%);
     left: 50%;
     position: relative;
+        color: #212529;
   }
     .carousel-inner.carousel-item.img-fluid {
         height: 280px !important;
@@ -694,10 +707,11 @@ footer.page-footer .footer-copyright {
     
     .nav__link:hover {
         background-color: #eeeeee !important;
+        color:  #0B661F;
     }
     
     .nav__link.active {
-        color: #009578;
+        color: #0B661F;
     }
    
     
@@ -901,4 +915,7 @@ footer.page-footer .footer-copyright {
 }
 .purple-gradient {
     background: linear-gradient(210deg,#008000,#008000) !important;
+}
+ion-icon {
+    font-size: 28px !important;
 }

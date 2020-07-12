@@ -1,30 +1,13 @@
-html,body {
-    height: 100%;
-}
+
 body {
-    padding-bottom: 60px;
- 
-    background-color: #fff;
+    padding-bottom: 90px;
+   border: 10px solid white !important;
+    background-color: #FAFAFA;
     margin-bottom: 20px;
     text-overflow: clip;
     overflow-x: hidden;
     overflow-y: auto;
     
-}
-
- a.nav-link {
-    color:  #212529 !important;
-}
-a.nav-link.active,a.nav-link:hover {
-    color: #0B661F !important;
-}
-
- .navbar-brand {
-   
-        color: #212529 !important;
-  }
-.btn-success {
-    background:#0B661F !important;
 }
 nav.navbar.navbar-expand-md {
     background-color: #FFFFFF;
@@ -34,37 +17,6 @@ nav.navbar.navbar-expand-md {
   .home-content  h2 {
      font-weight: 300 !important;
 }
-
-
-.bg-image {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-
-
-.overlay-mf {
-  background-color:forestgreen;
-}
-
-.overlay-mf {
-  position: absolute;
-  top: 0;
-  left: 0px;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  opacity: .7;
-}
-
-.paralax-mf {
-  position: relative;
-  padding: 8rem 0;
-    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
-}
-
-
 
 /**img cards**/
 .box {
@@ -87,20 +39,16 @@ nav.navbar.navbar-expand-md {
 }
 
 /*progressbar shit*/
+.progressb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
 
-.progress.progress-b h6{
-    font-size: 12px !important;
-}
-.progress.progress-b{
-    width: 70px;
-    height: 70px;
-    line-height: 150px;
-    background: none;
-    margin: 0 auto;
-    box-shadow: none;
-    position: relative;
-   
-}
+
 
 
 .progress{
@@ -117,7 +65,7 @@ nav.navbar.navbar-expand-md {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 10px solid orange;
+    border: 12px solid green;
     position: absolute;
     top: 0;
     left: 0;
@@ -137,7 +85,7 @@ nav.navbar.navbar-expand-md {
     width: 100%;
     height: 100%;
     background: none;
-    border-width: 10px;
+    border-width: 12px;
     border-style: solid;
     position: absolute;
     top: 0;
@@ -244,14 +192,13 @@ nav.navbar.navbar-expand-md {
 
 /*timeline*/
 
-
 .pagination.pg-blue .page-item.active .page-link {
     background-color:#0B661F;
 }
 
  
 .footer-menu {
-    background-color:#FAFAFA;
+    background-color: #fff;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -284,91 +231,52 @@ footer.page-footer .footer-copyright {
         padding-bottom: 20px;
 
 }
- .projects h3 {
-        font-size: 28px;
-        font-weight: 400 !important;
-    
-     word-spacing: 2px;
-    }
 .uzu {
     background-color: green !important;
     color: white !important;
 }
 
-
-
-/*faq page*/
-.accordion-section .panel-default > .panel-heading {
-    border: 0;
-    background: #f4f4f4;
-    padding: 0;
-}
-.accordion-section .panel-default .panel-title a {
-    display: block;
-    font-style: italic;
-    font-size: 1.5rem;
-}
-.accordion-section .panel-default .panel-title a:after {
-    font-family: 'FontAwesome';
-    font-style: normal;
-    font-size: 3rem;
-    content: "\f106";
-    color: #1f7de2;
-    float: right;
-    margin-top: -12px;
-}
-
-.accordion-section .panel-default .panel-body {
-    font-size: 1.2rem;
-}
-
-
-
-
-
-
-
 @media(max-width:900px) {
-    
-    .carousel-inner.carousel-item img {
-        height: 280 !important;
-    }
     .who-we-are .container {
         width: 100% !important
     }
     
     .navbar .navbar-brand {
-        padding-top: 10px !important;
+        padding-top: 20px !important;
         align-items: center !important;
     }
     
     .projects h2 {
         font-size: 28px;
-     
-    }
-     .projects h3 {
-        font-size: 28px;
-        font-weight: 400 !important;
     }
     .projects a {
-        padding-top: ;
+        padding-top: .4rem;
     }
     .projects .card {
         padding-bottom: .4rem;
     }
     
-    .projects.cardo {
-        padding: 0rem !important;
-    }
+    
     
     
     /*home*/
- 
+    
+  nav.navbar-brand {
+        
+        
+    }
+    .slide-it{
+        position: absolute;
+        top: 10%;
+            left:0px;
+    }
+    
     .mobo-home {
         padding-top: 20px;
         padding-left: 20px;
         padding-right: 20px;
-       
+        position: absolute;
+        top: 40%;
     }
     
     .mobo-home h1 {
@@ -387,14 +295,17 @@ footer.page-footer .footer-copyright {
     
     
     .mobo-home a {
-        font-size: 16px;
+        font-size: 20px;
          padding-bottom: 5px !important;
         margin-bottom: 5px !important;
         width: 100% !important;
     }
     
    #themain {
-      
+       padding-top: 10px !important;
+       margin-top: 20px !important;
+        position: absolute;
+        top: 95%;
     }
     
     
@@ -426,9 +337,9 @@ footer.page-footer .footer-copyright {
     /*projects*/
     
     #nav2 {
-   
+        background: white;
     }
-    #nav2 h2 {
+    #nav2 h3 {
         justify-content: center !important;
         text-align: center !important;
     }
@@ -442,15 +353,10 @@ footer.page-footer .footer-copyright {
     }
     
     .mobile .home-content img {
-      max-width: 5% !important;
-        height: auto;
+       width: 12% !important;
         margin-top: 0.4rem !important;
         padding-top: 0.2rem !important;
         padding-bottom: 0.3rem !important;
-    }
-     
-   .home-container .img-fluid {
-      max-width: 10% !important;
     }
     .mobile .home-content h1 {
         font-size: 30px;
@@ -474,31 +380,18 @@ footer.page-footer .footer-copyright {
         padding: 1rem !important;
     }
     
-   
-   
+    
+    
     
     /*ctrlhub-projectsample*/
-   
- .projects.lssp.card.cardo {
-        padding: 0rem !important;
-    }
-   .project.sample-project {
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-    }
-    .card-header {
-    padding: 0 !important;
-   
-    }
     .projects {
         padding: 0 !important;
     }
     .projects h3 {
-        font-size:28px !important;
-        font-weight: 400;
+        font-size:18px !important;
     }
     .projects h2 {
-        font-size: 1.2rem !important;
+        font-size: 1.5rem !important;
     }
     
     .summary.col {
@@ -517,405 +410,8 @@ footer.page-footer .footer-copyright {
     }
     
     
-    ul.pagination {
-    padding-top: 1rem !important;
-}
-    
-    
-    
-    
-    footer.page-footer a,footer.page-footer p{
-    color: #000 !important;
-        font-size: 18px !important;
     
     
     }
 
-}
 
-
-
-.circle {
-  padding: 13px 20px;
-  border-radius: 50%;
-  background-color:#0B661F;
-  color: #fff;
-  max-height: 50px;
-  z-index: 2;
-}
-.how-it-works h2,.how-it-works h5 {
-   font-weight: 500;
-}
-
-.how-it-works.row .col-2 {
-  align-self: stretch;
-}
-.how-it-works.row .col-2::after {
-  content: "";
-  position: absolute;
-  border-left: 3px solid #0B661F;
-  z-index: 1;
-}
-.how-it-works.row .col-2.bottom::after {
-  height: 50%;
-  left: 50%;
-  top: 50%;
-}
-.how-it-works.row .col-2.full::after {
-  height: 100%;
-  left: calc(50% - 3px);
-}
-.how-it-works.row .col-2.top::after {
-  height: 100%;
-  left: 50%;
-  top: 0;
-}
-
-
-.timeline div {
-  padding: 0;
-  height: 40px;
-}
-.timeline hr {
-  border-top: 3px solid #0B661F;
-  margin: 0;
-  top: 17px;
-  position: relative;
-}
-.timeline .col-2 {
-  display: flex;
-  overflow: hidden;
-}
-.timeline .corner {
-  border: 3px solid #0B661F;
-  width: 100%;
-  position: relative;
-  border-radius: 15px;
-}
-.timeline .top-right {
-  left: 50%;
-  top: -50%;
-}
-.timeline .left-bottom {
-  left: -50%;
-  top: calc(50% - 3px);
-}
-.timeline .top-left {
-  left: -50%;
-  top: -50%;
-}
-.timeline .right-bottom {
-  left: 50%;
-  top: calc(50% - 3px);
-}
-.carousel {
-    border-radius: 50%;
-}
-
-
- 
-    #who-we-are {
-        height: 100%;
-    }
-    
-    #who-we-are-cover {
-        background-image:url('../img/greenvest%20logo.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-    }
-
-.abouts {
-    background-image: url(../img/undraw_mobile_apps_spmp.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 400px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:767px) {
-   
-  .home-car img{
-        height: 290px !important;
-    }
-    
-    .navbar-brand {
-    transform: translateX(-50%);
-    left: 50%;
-    position: relative;
-        color: #212529;
-  }
-    .carousel-inner.carousel-item.img-fluid {
-        height: 280px !important;
-    }
-    
-    
-    
-
-.footer-mob {
-    margin: 0 0 55px 0:
-}
-
-
-
-.footer-mob.nav {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 55px;
-    box-shadow: 0 0 3px rgba(0,0,0,0.2);
-    background-color: #fff !important;
-    display: flex;
-    overflow-x: auto;
-}
-    
-   .nav__link {
-        display: flex;
-       flex-direction: column;
-       align-items: center;
-       justify-content: center;
-       flex-grow: 1;
-       min-width: 50px;
-       overflow: hidden;
-       white-space: nowrap;
-       font-size: 13px !important;
-       color: #444444;
-       text-decoration: none;
-       transition: background-color 0.1s ease-in-out;
-        background-color: #fff !important;
-    }
-    
-    .nav__link:hover {
-        background-color: #eeeeee !important;
-        color:  #0B661F;
-    }
-    
-    .nav__link.active {
-        color: #0B661F;
-    }
-   
-    
-    .circle {
-  padding: 13px 20px;
-  border-radius: 50%;
-  background-color:#0B661F;
-  color: #fff;
-  max-height: 50px;
-  z-index: 2;
-}
-.how-it-works h2,.how-it-works h5 {
-   font-weight: 500;
-}
-
-.how-it-works.row .col-2 {
-  align-self: stretch;
-}
-.how-it-works.row .col-2::after {
-  content: "";
-  position: absolute;
-  border-left: 3px solid #0B661F;
-  z-index: 1;
-}
-.how-it-works.row .col-2.bottom::after {
-  height: 50%;
-  left: 50%;
-  top: 50%;
-}
-.how-it-works.row .col-2.full::after {
-  height: 100%;
-  left: calc(50% - 3px);
-}
-.how-it-works.row .col-2.top::after {
-  height: 100%;
-  left: 50%;
-  top: 0;
-}
-
-
-.timeline div {
-  padding: 0;
-  height: 40px;
-}
-.timeline hr {
-  border-top: 3px solid #0B661F;
-  margin: 0;
-  top: 17px;
-  position: relative;
-}
-.timeline .col-2 {
-  display: flex;
-  overflow: hidden;
-}
-.timeline .corner {
-  border: 3px solid #0B661F;
-  width: 100%;
-  position: relative;
-  border-radius: 15px;
-}
-.timeline .top-right {
-  left: 50%;
-  top: -50%;
-}
-.timeline .left-bottom {
-  left: -50%;
-  top: calc(50% - 3px);
-}
-.timeline .top-left {
-  left: -50%;
-  top: -50%;
-}
-.timeline .right-bottom {
-  left: 50%;
-  top: calc(50% - 3px);
-}
-.
-
-
-
-
-}
-
-
-
-.flower {
-    width: 310px;
-    height: 160px;
-    background: hotpink;
-    border-radius: 100px;
-    margin-top: 200px;
-    background-image: url(../img/gift%20muoneke.jpg);
-    background-size: cover;
-}
-
-.flower::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 300px;
-    height: 200px;
- background: url(../img/gift%20muoneke.jpg);    border-radius: 100px;
-    transform: rotate(60deg);
-    
-    
-}
-.flower::after {
-    content: "";
-    display: block;
-    width: 300px;
-    height: 200px;
-    background:transparent;
-    border-radius: 100px;
-    transform: rotate(-60deg);
-}
-
-.hexagon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) rotate(120deg);
-    width: 400px;
-    height: 275px;
-    background: transparent;
-    border-radius:50%;
-    overflow: hidden;
-    
-}
-
-
-
-
-
-
-
-/*--------------------------------------------------------------
-# Counter
---------------------------------------------------------------*/
-.counter-box {
-  color: #fff;
-  text-align: center;
-}
-
-@media (min-width: 577px) {
-  .counter-box {
-    margin-bottom: 1.8rem;
-  }
-}
-
-.counter-ico {
-  margin-bottom: 1rem;
-}
-
-.counter-ico .ico-circle {
-  height: 50px;
-  width: 50px;
-  line-height: 1.8;
-  box-shadow: 0 0 0 10px #E9EFE7;
-   
-}
-
-.counter-num .counter {
-  font-size: 2rem;
-  margin-bottom: 0;
-}
-
-
-.ico-circle {
-  height: 50px;
-  width: 50px;
-  font-size: 2rem;
-  border-radius: 50%;
-  line-height: 1.55;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: 0 0 0 10px #E9EFE7;
-  display: block;
-    color: #F57C00;
-}
-.card.card-cascade.narrower .view.view-cascade {
-    margin-top: -1.0rem;
-    margin-right: 4%;
-    margin-left: 4%;}
-
-.card.card-cascade .view.view-cascade.gradient-card-header {
-    padding: 1.2rem 0.7rem;
-    color: #fff;
-    text-align: center;}
-
-
-.card.card-cascade .view.view-cascade {
-    border-radius: .25rem;
-    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
-    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
-}
-
-.view {
-    position: relative;
-    overflow: hidden;
-    cursor: default;
-}
-.purple-gradient {
-    background: linear-gradient(210deg,#008000,#008000) !important;
-}
-ion-icon {
-    font-size: 28px !important;
-}
