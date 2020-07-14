@@ -260,7 +260,9 @@ nav.navbar.navbar-expand-md {
 }
 
 
-
+footer a {
+    color: green;
+}
 
 /*timeline*/
 
@@ -935,7 +937,7 @@ footer.page-footer .footer-copyright {
     cursor: default;
 }
 .purple-gradient {
-    background: linear-gradient(210deg,#008000,#008000) !important;
+    background:  #0B661F  !important;
 }
 ion-icon {
     font-size: 28px !important;
