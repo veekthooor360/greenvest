@@ -11,6 +11,17 @@ body {
     overflow-y: auto;
     
 }
+.card-header.green-coloring {
+   
+    background-color: white !important;
+    
+}
+
+.green-coloring h5 {
+    color: #0B661F !important;
+    background-color: white !important;
+    
+}
 
  a.nav-link {
     color:  #212529 !important;
