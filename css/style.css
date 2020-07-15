@@ -1,3 +1,29 @@
+
+
+.contraste {
+    background-color: #FEFEFE;
+}
+
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+}
+
+code {
+  color: #e19123;
+}
+
+
+
+
+
+
+
+
 html,body {
     height: 100%;
 }
@@ -6,6 +32,9 @@ h2,h5 {
 }
 .home a {
     color: #0B661F !important;
+}
+.home a:hover {
+    color: #e19123 !important;
 }
 body {
     padding-bottom: 60px;
@@ -84,8 +113,12 @@ nav.navbar.navbar-expand-md {
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-
-
+.team-item a {
+    color: #0B661F;
+}
+.team-item a:hover {
+    color: orangered;
+}
 /**img cards**/
 .box {
     position: relative;
@@ -259,7 +292,9 @@ nav.navbar.navbar-expand-md {
     .progress{ margin-bottom: 20px; }
 }
 
-
+footer {
+    background-color: #FDFDFD;
+}
 footer a {
     color: green;
 }
